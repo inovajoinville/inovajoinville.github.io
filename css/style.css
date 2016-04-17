@@ -112,7 +112,7 @@ section h1 {
     padding-left:0;
   }
   .resultado ul li{
-    width:auto;
+    width:300px;
     margin-bottom:20px;
     display:table;
   }
