@@ -52,7 +52,6 @@ section h1 {
 }
 .sobre ul li figure figcaption p {
   color: #0b4e83;
-  tex-shadow: 1px 1px #034e88;
   font-size: 28px;
   text-transform: uppercase;
 }
@@ -87,6 +86,13 @@ section h1 {
   color: #074c83;
 }
 @media (max-width: 800px) {
+  .topo .description h1{
+    width:90%;
+    font-size:25px;
+  }
+  section h1{
+    font-size:30px
+  }
   .sobre ul {
     width: auto;
     padding-left: 0;
@@ -94,5 +100,28 @@ section h1 {
   .sobre ul li {
     display: table;
     width: auto;
+  }
+  .sobre ul li figure img{
+    width:100px;
+  }
+  .sobre ul li figure figcaption p{
+    font-size:20px;
+  }
+  .resultado ul{
+    display:table;
+    padding-left:0;
+  }
+  .resultado ul li{
+    width:auto;
+    margin-bottom:20px;
+    display:table;
+  }
+}
+
+
+@media all and (min-width: 800px) {
+  .resultado ul{
+    display:table;
+    padding-left:0;
   }
 }
