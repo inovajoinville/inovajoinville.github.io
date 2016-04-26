@@ -26,8 +26,6 @@ date: 2016-03-21
 ![screenshot of Inova Joinville](https://raw.githubusercontent.com/inovajoinville/inovajoinville.github.io/master/assets/img/como_fazemos.png)    
 ![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
 ## E agora?
 * [Participar das reuniões](https://www.facebook.com/groups/816717381769060/?fref=ts)
 * [Compartilhar]()
