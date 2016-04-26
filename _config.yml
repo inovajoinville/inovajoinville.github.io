@@ -4,7 +4,7 @@ bio:                'Grupo de quem faz acontecer \o/'
 description:        "O Inova é um movimento independente que promove ações para o bem-estar social, ambiental e econômico das pessoas e de joinville"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo_preto-01.png'
 background:         'assets/img/placeholder-big.jpg'
 locale:             pt_BR
 url:                http://inovajoinville.github.io/
