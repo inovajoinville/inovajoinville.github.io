@@ -5,32 +5,35 @@ tags: [sobre, inova joinville]
 date: 2016-03-21
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Inova Joinville</b></a> É UM MOVIMENTO INDEPENDENTE QUE PROMOVE AÇÕES PARA O BEM-ESTAR SOCIAL, AMBIENTAL E ECONÔMICO DAS PESSOAS E DE JOINVILLE.</center>
+# Inova Joinville
+    
+######(Cansado de ver os problemas da cidade todo dia e não poder fazer nada para ajudar? )
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+**[O INOVA](http://inovajoinville.github.io)** É UM MOVIMENTO INDEPENDENTE QUE PROMOVE AÇÕES PARA O BEM-ESTAR SOCIAL, AMBIENTAL E ECONÔMICO DAS PESSOAS E DE JOINVILLE
 
-## Preview
+## Como Fazemos
+* Ajudar a construir
+* Divulgação
+* Conexão estratégicas
+* Promover o exercício da cidadania
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## Sobre as nosas reuniões
+* A cada 2 semanas (4º feira às 19h)
+* Máximo de 1:30h de duração
+* Pauta e ata das reuniões disponíves no Drive
+* Passos seguintes decididos coletivamente
+
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-## Getting Started
+## E agora?
+* [Participar das reuniões](https://www.facebook.com/groups/816717381769060/?fref=ts)
+* [Compartilhar]()
+* [Mão na massa]()
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## Quer participar?
+* Entre em contato conosco e tire suas dúvidas através do nosso grupo no Facebook:
+[https://www.facebook.com/groups/816717381769060/?fref=ts](https://www.facebook.com/groups/816717381769060/?fref=ts)
+
