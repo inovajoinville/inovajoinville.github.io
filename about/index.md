@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Theme
+title: Sobre Inova Joinville
 tags: [sobre, inova joinville]
 date: 2016-03-21
 ---
