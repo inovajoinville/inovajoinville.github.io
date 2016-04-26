@@ -48,7 +48,7 @@
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); background-repeat: no-repeat;background-size: cover;} body:before{content: "";position: absolute; left: 0;right: 0; top: 0;bottom: 0; background-image: linear-gradient(to bottom right, #002f4b, #dc4225); opacity: 0.5}</style>
+    <style type="text/css">body {background-image:linear-gradient(to top right, #FFFFFF, #00458A)/*url({{ background }})*/;</style>
     {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}
