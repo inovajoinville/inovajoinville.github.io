@@ -17,7 +17,6 @@
 * Passos seguintes decididos coletivamente
 
 ![screenshot of Inova Joinville](https://github.com/inovajoinville/inovajoinville.github.io/blob/master/assets/img/como_fazemos.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
 ## E agora?
 * [Participar das reuniões](https://www.facebook.com/groups/816717381769060/?fref=ts)
