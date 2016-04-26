@@ -23,7 +23,7 @@ date: 2016-03-21
 * Pauta e ata das reuniões disponíves no Drive
 * Passos seguintes decididos coletivamente
 
-![screenshot of Inova Joinville](http://inovajoinville.github.io/assets/como_fazemos.png)    
+![screenshot of Inova Joinville](https://github.com/inovajoinville/inovajoinville.github.io/blob/master/assets/img/como_fazemos.png)    
 ![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
