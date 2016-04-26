@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About the Theme
-tags: [about, Jekyll, theme, moon]
+tags: [sobre, inova joinville]
 date: 2016-03-21
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a href="http://taylantatli.github.io/Moon"><b>Inova Joinville</b></a> É UM MOVIMENTO INDEPENDENTE QUE PROMOVE AÇÕES PARA O BEM-ESTAR SOCIAL, AMBIENTAL E ECONÔMICO DAS PESSOAS E DE JOINVILLE.</center>
 
 ## Features
 * Minimal, you can focus on your content
