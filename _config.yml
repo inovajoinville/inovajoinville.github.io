@@ -12,11 +12,13 @@ description: > # this means to ignore newlines until "baseurl:"
   O inova é um movimento independente que promove ações para o bem-estar social, ambiental e econômico das pessoas e de joinville
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://inovajoiville.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+facebook_username: inovajoiville
+twitter_username: inovajoiville
+github_username:  inovajoiville
+paginate: 4
+paginate_path: "/posts/page:num/"
 
 # Build settings
 markdown: kramdown
-
-#exclude 
 exclude: [node_modules, gulpfile.js]
+gems: [jekyll-paginate]
