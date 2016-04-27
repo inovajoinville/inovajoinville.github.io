@@ -35,7 +35,7 @@ layout: default
           </a>
         </div>
         <div class="large-10 columns">
-          <h2><a href="{{ post.url | prepend: site.baseurl }}" class="sub-post-title">{{ post.title }}</a></h2>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="sub-post-title">{{ post.title }}</a>
           <span>{{ post.date | date: '%B %d, %Y' }}</span>
 
           <p>{{ post.description | truncatewords: 20 }}</p>
