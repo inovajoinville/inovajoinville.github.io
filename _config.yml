@@ -15,10 +15,10 @@ url: "http://inovajoiville.github.io" # the base hostname & protocol for your si
 facebook_username: inovajoiville
 twitter_username: inovajoiville
 github_username:  inovajoiville
-paginate: 4
+paginate: 3
 paginate_path: "/posts/page:num/"
 
 # Build settings
 markdown: kramdown
-exclude: [node_modules, gulpfile.js]
+# exclude: [node_modules, gulpfile.js]
 gems: [jekyll-paginate]
