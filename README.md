@@ -16,7 +16,7 @@
 * Pauta e ata das reuniões disponíves no Drive
 * Passos seguintes decididos coletivamente
 
-![screenshot of Inova Joinville](https://github.com/inovajoinville/inovajoinville.github.io/blob/master/assets/img/como_fazemos.png)    
+![screenshot of Inova Joinville](https://raw.githubusercontent.com/inovajoinville/inovajoinville.github.io/master/images/como_fazemos.png)    
 
 ## E agora?
 * [Participar das reuniões](https://www.facebook.com/groups/816717381769060/?fref=ts)
