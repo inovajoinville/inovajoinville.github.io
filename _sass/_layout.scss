@@ -170,6 +170,31 @@ a.previous, a.next {
 	width: 40%;
 	margin-top: $main-padding * 2;
 }
+
+h1.post-title{
+	font-size: $post-title-size;
+	font-weight: 300;
+	line-height: $main-title-leading;
+	margin-bottom: 0;
+}
+
+img#main-image{
+	display: inline;
+	float: left;
+	padding: 0 $main-padding $main-padding 0;
+}
+
+.post-content{
+	margin-bottom: $main-padding * 3;
+}
+
+.sidebar-ad{
+	margin-top: $main-padding * 2;
+}
+
+.post-meta{
+	margin-top: 0;
+}
 // Mobile
 @media all and (max-width: 480px) {
 
