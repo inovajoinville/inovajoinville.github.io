@@ -196,14 +196,61 @@ img#main-img{
 .post-meta{
 	margin-top: 0;
 }
-// Mobile
-@media all and (max-width: 480px) {
 
+// tablet
+@media only screen and (max-width: 64.063em){
+	
+	a.main-post-title, a.sub-posts-title{
+		font-size: $main-title-size-m;
+		line-height: $main-title-leading;
+	}
+
+	.sub-posts{
+		text-align: center;
+	}
+
+	.sub-thumb {
+		margin: 0 auto $main-padding auto;
+	}
 }
-@media all and (max-width: 580px) {
 
+// smartphone
+@media only screen and (max-width:40em){
+	
+	.main-post{
+		text-align: center;
+		margin-bottom: $main-padding;
+	}
+
+	p{
+		font-size: 1em;
+	}
+
+	a.menu-icon{
+		display: inline;
+	}
+	.trigger{
+		display: none;
+		width: 100%;
+		margin-top: $main-padding;
+	}
+
+	nav {
+		display: block;
+		clear: both;
+		text-align: right;
+		margin-top: -45px;
+	}
+
+	.trigger a{
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid $footer-color;
+		margin-right: -$main-padding;
+		padding: $main-padding / 2 0;
+		text-align: left;
+	}
 }
-
 // Medium
 @media all and (min-width: 1000px) {
 	.row{
