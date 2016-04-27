@@ -9,7 +9,7 @@ layout: default
       {% for post in site.categories.destaque limit: 3 %}
       <div class="medium-4 columns">
         <div class="main-post">
-          <h1><a href="{{ post.url | prepend: site.baseurl }}" class="main-post-title">{{ post.title }}</a></h1>
+          <a><a href="{{ post.url | prepend: site.baseurl }}" class="main-post-title">{{ post.title }}</a></a>
           <span>{{ post.date | date: '%B %d, %Y'}}</span>
 
           <div class="main-thumb">
