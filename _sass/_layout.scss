@@ -229,6 +229,9 @@ img#main-img{
 	a.menu-icon{
 		display: inline;
 	}
+	a.github-banner{
+		display: none;
+	}
 	.trigger{
 		display: none;
 		width: 100%;
@@ -240,6 +243,7 @@ img#main-img{
 		clear: both;
 		text-align: right;
 		margin-top: 35px;
+		width: 100%;
 	}
 
 	.trigger a{
