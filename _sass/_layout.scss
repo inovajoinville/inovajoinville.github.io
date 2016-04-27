@@ -267,12 +267,14 @@ img#main-img{
 	.row{
 		max-width: 70rem;
 	}
+	a.github-banner{display:none}
 }
 // Normal
 @media all and (min-width: 1500px) {
 	.row{
 		max-width: 80rem;
 	}
+	 a.github-banner{display:block}
 }
 
 // Large 
