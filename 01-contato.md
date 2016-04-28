@@ -5,4 +5,4 @@ permalink: /contato/
 ---
 
 
-- [Facebook]: (/groups/816717381769060/?fref=ts)
+- [Facebook](/groups/816717381769060/?fref=ts)
