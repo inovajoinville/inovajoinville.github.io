@@ -6,7 +6,7 @@ permalink: /sobre/
 
 # Inova Joinville
     
-######(Cansado de ver os problemas da cidade todo dia e não poder fazer nada para ajudar? )
+(Cansado de ver os problemas da cidade todo dia e não poder fazer nada para ajudar? )
 
 **[O INOVA](http://inovajoinville.github.io)** É UM MOVIMENTO INDEPENDENTE QUE PROMOVE AÇÕES PARA O BEM-ESTAR SOCIAL, AMBIENTAL E ECONÔMICO DAS PESSOAS E DE JOINVILLE
 
