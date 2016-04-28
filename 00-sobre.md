@@ -31,4 +31,4 @@ permalink: /sobre/
 
 ## Quer participar?
 * Entre em contato conosco e tire suas dúvidas através do nosso grupo no Facebook:
-[https://www.facebook.com/groups/816717381769060/?fref=ts](/groups/816717381769060/?fref=ts)
+[/groups/816717381769060/?fref=ts](https://www.facebook.com/groups/816717381769060/?fref=ts)
