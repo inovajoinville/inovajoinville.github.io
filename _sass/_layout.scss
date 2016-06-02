@@ -1,285 +1,205 @@
-$font: 'Lato', sans-serif;
-$nav-color: #000;
-$hover-link-color: #094E85;
-$secondary-font-color: #707070;
+* {
+  margin: 0;
+  padding: 0; }
 
-$accent-color-1: #F7F7F7;
-$accent-color-2: #ccd8db;
-$footer-color: #F7F7F7;
-
-$main-title-size: 2.2em;
-$main-title-leading: 1em;
-$main-title-size-m: 1.5em;
-$paragraph-size: 1.1em;
-$post-title-size: 3.2em;
-
-$main-padding: 20px;
-$sections-margin: 50px;
-
-*{
-	font-family: $font;
-}
-
-html,body{
-	height: 100%;
-}
-
-body{
-	background: #ffffff;
-	// background: -moz-linear-gradient(top,  #ffffff 32%, #dbdbdb 59%); /* FF3.6-15 */
-	// background: -webkit-linear-gradient(top,  #ffffff 32%, #dbdbdb 59%); /* Chrome10-25,Safari5.1-6 */
-	// background: linear-gradient(to bottom,  #ffffff 32%, #dbdbdb 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
-	background-attachment: fixed;
-}
+body {
+  font-family: "Lato", sans-serif; }
 
 a {
-	text-decoration: none;
-	color: $nav-color;
-	font-size: 1.2em;
-}
-a:hover{
-	color: $hover-link-color;
-}
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
 
-p{
-	font-size: $paragraph-size;
-}
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; }
 
-header {
-	// padding: 50px 0;
-	padding-bottom: 50px;
-}
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%; }
 
-nav {
-	float: right;
-	font-size: 20px;
-	margin-top: 100px;
-}
+.header {
+  background: #fff;
+  margin-bottom: 5%; 
+	margin-left: 20%;}
+  .header img {
+    max-width: 100%; }
 
-nav a {
-	margin-right: 30px;
-}
+.footer {
+  background: #fff; }
 
-nav a:last-child{
-	margin-right: 0;
-}
-
-.menu-icon {
-	display: none;
-}
-
-.sections {
-	margin: $sections-margin auto;
-}
-
-.main-post{
-	display: block;
-	background: $accent-color-1;
-	border: 1px solid $accent-color-2;
-}
-
-a.main-post-title {
-	font-size: $main-title-size;
-	padding: $main-padding $main-padding 0 $main-padding;
-	display: block;
-	line-height: $main-title-leading;
-}
-
-.main-post span{
-	margin-left: $main-padding;
-	color: $secondary-font-color;
-}
-
-.sub-posts span{
-	color: $secondary-font-color;	
-}
-
-.main-post p {
-	margin: $main-padding;
-}
-
-.main-thumb{
-	width: auto;
-	height: 157px;
-	overflow: hidden;
-	margin-top: $main-padding;
-}
-
-.sub-thumb{
-	width: 124px;
-	height: 124px;
-	position: relative;
-	overflow: hidden;
-	border-radius: 50%;
-	background-position: center;
-	background-size: cover;
-	margin-bottom: 20px;
-}
-
-a.sub-post-title {
-	font-size: $main-title-size;
-	display: block;
-	line-height: $main-title-leading;
-}
-
-.sub-posts {
-	margin-bottom: $main-padding;
-}
-
-.ad {
-	text-align: center;
-	margin: .67em 0;
-	margin-bottom: $main-padding * 2;
-}
-
-.pagination {
-	clear: both;
-	display: block;
-}
-
-footer{ 
-	background-color: $footer-color;
-	min-height: 160px;
-}
-
-ul#social-links {
-	list-style-type: none;
-	margin-top: 40px;
-	float: right;
-}
-
-ul#social-links li{
-	display: inline;
-	float: left;
-	margin: $main-padding * 2 30px 0 0;
-}
-
-.pagination{
-	text-align: center;
-}
-
-a.previous, a.next {
-	font-weight: bold;
-	margin: $main-padding * 2 $main-padding $main-padding * 2 0;
-	display: inline-block;
-	background: $footer-color;
-	padding: $main-padding;
-}
-
-#footer-logo {
-	width: 40%;
-	margin-top: $main-padding * 2;
-}
-
-h1.post-title{
-	font-size: $post-title-size;
-	font-weight: 300;
-	line-height: $main-title-leading;
-	margin-bottom: 0;
-}
-
-img#main-img{
-	display: inline;
-	float: left;
-	padding: 0 $main-padding $main-padding 0;
-}
-
-.post-content{
-	margin-bottom: $main-padding * 3;
-}
-
-.sidebar-ad{
-	margin-top: $main-padding * 2;
-}
-
-.post-meta{
-	margin-top: 0;
-}
-
-// tablet
-@media only screen and (max-width: 64.063em){
-	
-	a.main-post-title, a.sub-posts-title{
-		font-size: $main-title-size-m;
-		line-height: $main-title-leading;
+.main {
+  text-align: center;
+  background: #fff;
+  color: #111;
+  font-size: 1.5em; 
+	section{
+		width: 80%;
+		float: right;
+		position: relative;
 	}
+  .thumbs_build{
+    display: inline-flex;
+    margin: 0 auto;
+    flex: 1 0;
+    figure{
+      margin: 50px 0;
+      flex: inherit;
+      figcaption{
+        color: #1B568A;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      img{
+        width: 120px;
+        max-width: 100%;
+      }
+    }
+  }
+  #results{
+      background: url("/images/peoples.jpg");
+      background-size: cover;
+      background-position: top center;
+      background-attachment: fixed;
+      min-height: 500px;
+    header{
+      background: transparent;
+      h3{
+        color: #fff
+      }
+      hr{
+        background: #fff;
+      }
+    }
+  }
+  .thumb_rd {
+    display: inline-flex;
+    li.item{
+        flex:inherit;
+        width: 218px;
+        height: 200px;
+        background: #FFBB37;
+        margin: 0 28px;
+        border-radius: 50%;
+        max-width: 100%;
+        display: table;
+        color: #00498A;
+        text-align:center;
+        padding-top: 2%;
+        span{
+        line-height:2;
+        font-weight:bold;
+        font-size: 3rem;
+      }
+    }
+    p {
+      width: 80%;
+      margin: auto;
+      font-size: 1.1rem;
+      margin-top: 5%;
+    }
+  }
 
-	.sub-posts{
-		text-align: center;
-	}
-
-	.sub-thumb {
-		margin: 0 auto $main-padding auto;
-	}
+  #join{
+    ul.thumb_join {
+      display: inline-flex;
+    }
+    ul.thumb_join figure{
+        flex: 1 0;
+        width: 300px;
+        max-width: 100%;
+    }
+  }
 }
+  .main header {
+    text-align: center;
+    margin: 20px;
+    padding: 10px 0;
+    color: #686C8D;
+    font-size: 2em;
+    background: #fff; }
+    .main header h3 {
+      text-transform: uppercase; }
+    .main header hr {
+      margin: 10px 0;
+      margin-right: 45%;
+      margin-left: 45%;
+      height: 5px;
+      background: #686C8D;
+      border: 0px; }
+  .main p {
+    font-size: 0.9em; }
+  .main figure.thumbs {
+    margin: 5% 0; }
+    .main figure.thumbs img {
+      width: 200px;
+      max-width: 100%;
+      margin: 20px; }
 
-// smartphone
-@media only screen and (max-width:40em){
-	
-	.main-post{
-		text-align: center;
-		margin-bottom: $main-padding;
-	}
+  .aside-1 {
+    background: rgba(239, 239, 239, 0.16);
+    padding-top: 5%;
+    position: fixed;
+    left: 0;
+    height: 100%; }
+  .aside-1 header h1 {
+    text-transform: uppercase;
+    font-size: 2.8em;
+    color: #00498A;
+    font-weight: bold; }
+    .aside-1 header h1 span {
+      font-weight: 100; }
+  .aside-1 header nav {
+    margin: auto;
+    margin-top: 50%;
+    a{
+      text-decoration: none;
+    }
+    }
+    .aside-1 header nav li {
+      line-height: 5;
+      margin: 10px 0;
+      }
+      .aside-1 header nav li:hover{
+        background: #0A4B8A;
+      }
+      .aside-1 header nav a li  {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #686C8D;
+        font-size: 1.5em;
+        line-height: 4;
+        }
+        .aside-1 header nav a li:hover {
+          color: #FFA100; }
 
-	p{
-		font-size: 1em;
-	}
+  .aside-2 {
+  background: hotpink; }
 
-	a.menu-icon{
-		display: inline;
-	}
-	a.github-banner{
-		display: none;
-	}
-	.trigger{
-		display: none;
-		width: 100%;
-		margin-top: $main-padding;
-	}
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 auto; } }
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px; }
 
-	nav {
-		display: block;
-		clear: both;
-		text-align: right;
-		margin-top: 35px;
-		width: 100%;
-	}
+  .aside-1 {
+    order: 1; }
 
-	.trigger a{
-		display: block;
-		width: 100%;
-		border-bottom: 1px solid $footer-color;
-		margin-right: -$main-padding;
-		padding: $main-padding / 2 0;
-		text-align: left;
-	}
-}
+  .main {
+    order: 2; }
 
-@media only screen and (min-width:40em){
-	.trigger{
-		display: block !important;
-	}
-}
+  .aside-2 {
+    order: 3; }
 
-// Medium
-@media all and (min-width: 1000px) {
-	.row{
-		max-width: 70rem;
-	}
-	a.github-banner{display:none}
-}
-// Normal
-@media all and (min-width: 1500px) {
-	.row{
-		max-width: 80rem;
-	}
-	 a.github-banner{display:block}
-}
-
-// Large 
-@media all and (min-width: 1800px) {
-	.row{
-		max-width: 90rem;
-	}
-}
+  .footer {
+    order: 4; } }
