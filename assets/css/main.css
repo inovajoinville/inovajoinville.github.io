@@ -3271,7 +3271,21 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			//background-color: #b74e91;
+			background-image: url('images/background_resultados.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+	 	.wrapper.style3:before{
+			content: "";
+		 	position: absolute;
+		 	background: #094E85;
+		 	right: 0;
+		 	left: 0;
+		 	top: 0;
+		 	bottom: 0;
+		 	opacity: 0.5;
 		}
 
 		.wrapper.style3-alt {
@@ -3897,13 +3911,13 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		//background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 	#intro img{
-		width: 450px;
+		width: auto;
 		max-width: 100%;
 		margin: 0 auto;
 	}
@@ -3915,6 +3929,10 @@
 			font-size: 1.25em;
 			color: #02223C;
 		}
+
+	#intro ul.actions li a{
+		background: rgb(2, 99, 173);
+	}
 
 			@media screen and (max-width: 980px) {
 
