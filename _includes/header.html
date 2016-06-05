@@ -1,0 +1,37 @@
+<<<<<<< HEAD
+<!-- <ul class="navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Contact</a></li>
+</ul> -->
+
+<header class="header">
+	<a class="site-title" href="{{ site.baseurl }}/"><img src="/images/home_logo.png" alt="logo" title="logo"></a>
+</header>
+=======
+<header>
+  <a href="https://github.com/inovajoinville/inovajoinville.github.io" class="github-banner"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+  <div class="row">
+    <div class="medium-6 columns">
+      <a class="site-title" href="{{ site.baseurl }}/"><img src="/images/inova_logo.png" alt="logo" title="logo"></a>
+    </div>
+    <div class="medium-6 columns">
+      <nav class="site-nav">
+        <a href="#" class="menu-icon">
+          <img src="/images/menu.png" />
+        </a>
+
+        <div class="trigger">
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+>>>>>>> 159508586d992fd0fa2ee2aafc2d6d647a7c9f02
